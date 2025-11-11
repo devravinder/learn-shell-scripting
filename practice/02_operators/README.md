@@ -9,7 +9,7 @@
 
   
 ## Types
-1. *arithmetic*
+1. *arithmetic or mathemtical*
    - +, -, *, /, %, **(exponential)
    - +=, -=, *=, /=
    - ++, --

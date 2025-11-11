@@ -5,6 +5,9 @@
 : '
  Arithmetic operators are used on numbers, and these will produce again numbers
 
+ Note:-
+    we should use $(( )) while doing operation
+
 '
 
 a=4
@@ -20,7 +23,9 @@ division=$((a/b))
 reminder=$((a%b))
 exponential=$((a**b))
 
-echo "sum=$sum
+echo "
+a=$a, b=$b
+sum=$sum
 diff=$diff
 multi=$multi
 division=$division
