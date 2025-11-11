@@ -62,7 +62,8 @@ single_quote='Hello
 
 Hi'
 
-echo $single_quote  # Note: echo $single_quote  won't print new line use: echo "$single_quote"
+echo $single_quote 
+echo "$single_quote"  # Note: `echo $single_quote` != `echo "$single_quote"``
 
 
 echo
