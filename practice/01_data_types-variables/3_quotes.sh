@@ -5,7 +5,7 @@
 : '
 
 # Note:-
-Single quotes vs Double quotes vs Reverse quotes/back-ticks
+Single quotes vs Double quotes vs Reverse quotes/back-ticks/tilte
 
 - Single quotes
   - only for string data
@@ -32,13 +32,13 @@ double_quotes="name: Ravinder Reddy, age: $age"  # variable substitution
 echo $single_quote
 echo $double_quotes
 
-double_quotes="1+1=$((1+1))" # command substitution
+double_quotes="pwd=$(pwd)" # command substitution
 
 
 echo $double_quotes
 
 
-result=`ls`
+result=`ls`  # command substitution - old way
 
 echo
 echo
@@ -47,7 +47,7 @@ echo "ls result:
 $result"
 
 
-echo "The hostname: `hostname`"
+echo "The pwd: `pwd`" 
 
 
 
@@ -56,13 +56,13 @@ echo
 echo
 echo
 
-# multi line
+# multi line text
 
 single_quote='Hello
 
 Hi'
 
-echo "$single_quote"  # Note: echo $single_quote  won't print new line use: echo "$single_quote"
+echo $single_quote  # Note: echo $single_quote  won't print new line use: echo "$single_quote"
 
 
 echo

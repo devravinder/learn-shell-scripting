@@ -10,7 +10,7 @@
 1. Strings
 2. Integers / Numbers
 3. boolean
-4. arrays 
+4. arrays ( multiple values )
    - indexed array ( fixed )
    - Associative Array ( dynamic )
 

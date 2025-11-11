@@ -1,10 +1,11 @@
 #!/bin/bash
 
-# Dynamic values ( user input / result of another program )
+# Dynamic values ( user input / result of other program or operation )
+   # variables are assigned while running the program 
 
 
 echo "Enter you name"
-read name   # user inout
+read name   # user input
 echo "Hi $name, welcome to shell script tutorial"
 
 
@@ -13,10 +14,9 @@ read age
 next_year_age=$((age + 1))   # result of some operation  # Arithmetic operation
     # we'll learn more in operators
 
-MINOR_MAX_AGE=18  # UPPER CASE for constants
+MINOR_MAX_AGE=18  # UPPER CASE for constants ( if the value is not changing entire the program )
 
-is_minor=$((age < MINOR_MAX_AGE))  # no spcae in between in assignment
-                                # is_minor = $((age < MINOR_MAX_AGE)) # in correct
+is_minor=$((age <= MINOR_MAX_AGE)) 
 
 echo "your are minor: $is_minor"  
   # 0: false, 1 : true
