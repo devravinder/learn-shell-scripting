@@ -11,7 +11,7 @@
 ## Types
 1. *arithmetic or mathemtical*
    - +, -, *, /, %, **(exponential)
-   - +=, -=, *=, /=
+   - +=, -=, *=, /= (Compound assignmen)
    - ++, --
 
 2. *Relational / Numeric Comparison Operators*
